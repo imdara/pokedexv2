@@ -1,0 +1,126 @@
+body {
+    background-color:rgb(218, 77, 42);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align:center;
+}
+
+h3{
+    margin-top: 15px;
+    text-align: center;
+}
+
+#searchBar {
+    width: 87%;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.btn-dark {
+    background-color: rgb(206, 179, 179);
+    border: 1px solid white;
+}
+
+.card {
+    background-color: rgb(206, 179, 179);
+    color: rgba(185, 81, 21, 0.904);
+    width: 410px;
+    margin-bottom: 40px;
+    margin: 11px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#popupcard {
+    background-color: rgb(206, 179, 179);
+    color: rgba(185, 81, 21, 0.904);
+    width: 90vw;
+    margin-bottom: 40px;
+    margin: 11px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#popupimg {
+    height: 50vh;
+    width: 25vw;
+    align-self: center;
+}
+
+.card:hover {
+    box-shadow: 8px 8px rgb(225, 235, 135);
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    box-shadow: 8px 8px rgb(225, 235, 135);
+}
+
+.btn-dark:enabled {
+    background-color: rgb(206, 179, 179);
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+#listofpokemon {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+nav {
+    text-align: center;
+}
+
+.popup {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#closeBtn {
+    position: fixed;
+    top: 3px;
+    right: 3px;
+}
+
+#first{
+    height: 50px;
+    width: 45px;
+    margin-bottom: 7px;
+}
+
+#searchBtn {
+    height: 50px;
+    width: 80px;
+    margin-bottom: 7px;
+}
+
+@media (max-width: 500px) {
+    #searchBar {
+        width: 51vw;
+        height: 7vh;
+    }
+    #first {
+        height: 7vh;
+    }
+    #searchBtn {
+        height: 7vh;
+    }
+    #closeBtn {
+        position: inherit;
+        height: 5vh;
+        width: 2px;
+        font-size:10px;
+    }
+}
